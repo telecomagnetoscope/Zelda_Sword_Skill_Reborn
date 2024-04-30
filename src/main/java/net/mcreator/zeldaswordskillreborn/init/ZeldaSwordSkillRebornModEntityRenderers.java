@@ -17,14 +17,15 @@ public class ZeldaSwordSkillRebornModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.DEKU_SHIELD.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.HYLIAN_SHIELD.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.MIRROR_SHIELD.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.FAIRY_SLINGSHOT.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.BOMB.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.BOOMERANG.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.HOOKSHOT.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.BOWOF_HERO.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.LONGSHOT.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.BOW_OF_HERO_DRAWING_1.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.BOW_OF_HERO_DRAWIN_2.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.BOW_OF_HEROO_DRAWING_3.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.LONGSHOT.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(ZeldaSwordSkillRebornModEntities.MIRROR_SHIELD.get(), ThrownItemRenderer::new);
 	}
 }

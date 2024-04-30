@@ -31,8 +31,10 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.zeldaswordskillreborn.init.ZeldaSwordSkillRebornModTabs;
 import net.mcreator.zeldaswordskillreborn.init.ZeldaSwordSkillRebornModSounds;
+import net.mcreator.zeldaswordskillreborn.init.ZeldaSwordSkillRebornModMenus;
 import net.mcreator.zeldaswordskillreborn.init.ZeldaSwordSkillRebornModItems;
 import net.mcreator.zeldaswordskillreborn.init.ZeldaSwordSkillRebornModEntities;
+import net.mcreator.zeldaswordskillreborn.init.ZeldaSwordSkillRebornModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -53,9 +55,11 @@ public class ZeldaSwordSkillRebornMod {
 		ZeldaSwordSkillRebornModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		ZeldaSwordSkillRebornModSounds.REGISTRY.register(bus);
-
+		ZeldaSwordSkillRebornModBlocks.REGISTRY.register(bus);
 		ZeldaSwordSkillRebornModItems.REGISTRY.register(bus);
 		ZeldaSwordSkillRebornModEntities.REGISTRY.register(bus);
+
+		ZeldaSwordSkillRebornModMenus.REGISTRY.register(bus);
 
 	}
 

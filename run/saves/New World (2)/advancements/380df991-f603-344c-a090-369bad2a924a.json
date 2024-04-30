@@ -1,0 +1,21 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-05-01 00:42:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-05-01 01:52:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sparse_jungle": "2024-05-01 00:33:03 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

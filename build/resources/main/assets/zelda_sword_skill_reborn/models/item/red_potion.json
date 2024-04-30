@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "zelda_sword_skill_reborn:items/potion_red"
-  }
-}

@@ -11,6 +11,7 @@ public class ZeldaSwordSkillRebornModTabs {
 	public static CreativeModeTab TAB_ZSS_EQUIPMENT;
 	public static CreativeModeTab TAB_ZSS_TRESORS;
 	public static CreativeModeTab TAB_ZSS_ITEM;
+	public static CreativeModeTab TAB_ZSS_MUSIC;
 
 	public static void load() {
 		TAB_ZSS_EQUIPMENT = new CreativeModeTab("tabzss_equipment") {
@@ -38,7 +39,18 @@ public class ZeldaSwordSkillRebornModTabs {
 		TAB_ZSS_ITEM = new CreativeModeTab("tabzss_item") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(ZeldaSwordSkillRebornModItems.DELETED_MOD_ELEMENT.get());
+				return new ItemStack(ZeldaSwordSkillRebornModItems.EMPTY_BOTTLE.get());
+			}
+
+			@Override
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_ZSS_MUSIC = new CreativeModeTab("tabzss_music") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(ZeldaSwordSkillRebornModItems.OCARINA_OF_TIME.get());
 			}
 
 			@Override

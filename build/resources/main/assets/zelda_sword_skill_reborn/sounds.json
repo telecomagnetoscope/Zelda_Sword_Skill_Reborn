@@ -7,5 +7,14 @@
         "stream": false
       }
     ]
+  },
+  "zeldaslullaby": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "zelda_sword_skill_reborn:lullaby",
+        "stream": true
+      }
+    ]
   }
 }
