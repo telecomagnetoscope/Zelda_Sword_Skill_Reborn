@@ -1,0 +1,7 @@
+{
+  "parent": "zelda_sword_skill_reborn:custom/emeraude_kokiri",
+  "textures": {
+    "0": "zelda_sword_skill_reborn:blocks/emeraude_kokiri",
+    "particle": "zelda_sword_skill_reborn:items/emeraude_kokiri"
+  }
+}

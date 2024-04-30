@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "shield_mirror",
+        "1": "shield_mirror_back",
+        "missing": "shield_mirror"
+      },
+      "name": "default"
+    }
+  }
+}

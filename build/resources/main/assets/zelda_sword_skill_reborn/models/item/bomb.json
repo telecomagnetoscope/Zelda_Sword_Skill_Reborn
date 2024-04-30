@@ -1,0 +1,8 @@
+{
+  "parent": "zelda_sword_skill_reborn:custom/bomb",
+  "textures": {
+    "2": "zelda_sword_skill_reborn:blocks/bomb_standarditem",
+    "missing": "zelda_sword_skill_reborn:blocks/bomb_standarditem",
+    "particle": "zelda_sword_skill_reborn:items/bomb_standarditem"
+  }
+}

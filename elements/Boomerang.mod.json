@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "boomerang",
+    "customModelName": "Normal",
+    "name": "Boomerang",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ZssEquipment"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Boomerang"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "block",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "Boomerangprocedure"
+    },
+    "bulletPower": 2.0,
+    "bulletDamage": 6.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Boomerang"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "BoomerangProcedure2"
+    },
+    "onBulletHitsEntity": {
+      "name": "Boomerangmob"
+    }
+  }
+}

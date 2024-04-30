@@ -1,0 +1,7 @@
+{
+  "parent": "zelda_sword_skill_reborn:custom/rubis_goron",
+  "textures": {
+    "0": "zelda_sword_skill_reborn:blocks/goron_rupee",
+    "particle": "zelda_sword_skill_reborn:items/goron_rupee"
+  }
+}

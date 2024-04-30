@@ -1,0 +1,9 @@
+{
+  "parent": "zelda_sword_skill_reborn:custom/deku_shield",
+  "textures": {
+    "0": "zelda_sword_skill_reborn:blocks/shield_deku",
+    "1": "zelda_sword_skill_reborn:blocks/shield_deku_back",
+    "missing": "zelda_sword_skill_reborn:blocks/shield_deku",
+    "particle": "zelda_sword_skill_reborn:items/shield_deku"
+  }
+}

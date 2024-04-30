@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sword_biggoron",
+    "customModelName": "Normal",
+    "name": "Bigorron Sword",
+    "specialInfo": [
+      "Created by blacksmith Biggoron",
+      "it is just a knife for the Gorons."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ZssEquipment"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "shield_hylian",
+        "1": "shield_hylian_back",
+        "missing": "shield_hylian"
+      },
+      "name": "default"
+    }
+  }
+}

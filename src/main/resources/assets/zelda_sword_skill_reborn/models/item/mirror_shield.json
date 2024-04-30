@@ -1,0 +1,9 @@
+{
+  "parent": "zelda_sword_skill_reborn:custom/mirror_shield",
+  "textures": {
+    "0": "zelda_sword_skill_reborn:blocks/shield_mirror",
+    "1": "zelda_sword_skill_reborn:blocks/shield_mirror_back",
+    "missing": "zelda_sword_skill_reborn:blocks/shield_mirror",
+    "particle": "zelda_sword_skill_reborn:items/shield_mirror"
+  }
+}

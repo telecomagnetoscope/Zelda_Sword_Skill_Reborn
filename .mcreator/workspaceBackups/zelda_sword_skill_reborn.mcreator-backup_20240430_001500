@@ -1,0 +1,1052 @@
+{
+  "mod_elements": [
+    {
+      "name": "KokiriSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kokiri_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/KokiriSwordItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/kokiri_sword.json"
+        ]
+      },
+      "path": "~/Sword"
+    },
+    {
+      "name": "ZssEquipment",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zss_equipment",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "DekuShield",
+      "type": "rangeditem",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deku_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/deku_shield.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/entity/DekuShieldEntity.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/DekuShieldItem.java"
+        ]
+      },
+      "path": "~/shield"
+    },
+    {
+      "name": "UseDekuShield",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_deku_shield",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/UseDekuShieldProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "MasterSword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "master_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/MasterSwordItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/master_sword.json"
+        ]
+      },
+      "path": "~/Sword"
+    },
+    {
+      "name": "UseHylianShield",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_hylian_shield",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/UseHylianShieldProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "HylianShield",
+      "type": "rangeditem",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hylian_shield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/entity/HylianShieldEntity.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/HylianShieldItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/hylian_shield.json"
+        ]
+      },
+      "path": "~/shield"
+    },
+    {
+      "name": "BigorronSword",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigorron_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/BigorronSwordItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/bigorron_sword.json"
+        ]
+      },
+      "path": "~/Sword"
+    },
+    {
+      "name": "KokiriTunic",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kokiri_tunic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/KokiriTunicItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/kokiri_tunic_helmet.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/kokiri_tunic_leggings.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/kokiri_tunic_chestplate.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/kokiri_tunic_boots.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "GoronTunic",
+      "type": "armor",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goron_tunic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/goron_tunic_chestplate.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/GoronTunicItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/goron_tunic_helmet.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/goron_tunic_boots.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/goron_tunic_leggings.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "ZoraTunic",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zora_tunic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/ZoraTunicItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/zora_tunic_chestplate.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/zora_tunic_boots.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/zora_tunic_helmet.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/zora_tunic_leggings.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "EffectGoron",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_goron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/EffectGoronProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "DekuSeed",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deku_seed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/deku_seed.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/DekuSeedItem.java"
+        ]
+      },
+      "path": "~/ammo"
+    },
+    {
+      "name": "EffectZoraBoots",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_zora_boots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/EffectZoraBootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "EffectZoraHelmet",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_zora_helmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/EffectZoraHelmetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "UseMirrorShield",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_mirror_shield",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/UseMirrorShieldProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "FairySlingshot",
+      "type": "rangeditem",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fairy_slingshot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/FairySlingshotItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/fairy_slingshot.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/entity/FairySlingshotEntity.java"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "Bomb",
+      "type": "rangeditem",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/BombItem.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/entity/BombEntity.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/bomb.json"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "BombsHitSmthg",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bombs_hit_smthg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/BombsHitSmthgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Boomerang",
+      "type": "rangeditem",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boomerang",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/entity/BoomerangEntity.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/BoomerangItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/boomerang.json"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "Boomerangprocedure",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boomerangprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/BoomerangprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "BoomerangProcedure2",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boomerang_procedure_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/BoomerangProcedure2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "BowofHero",
+      "type": "rangeditem",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowof_hero",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/bowof_hero.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/entity/BowofHeroEntity.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/BowofHeroItem.java"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "BowOfHeroDrawing1",
+      "type": "rangeditem",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_of_hero_drawing_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/entity/BowOfHeroDrawing1Entity.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/bow_of_hero_drawing_1.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/BowOfHeroDrawing1Item.java"
+        ]
+      },
+      "path": "~/Dungeon item/Annimation"
+    },
+    {
+      "name": "BowOfHeroDrawin2",
+      "type": "rangeditem",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_of_hero_drawin_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/entity/BowOfHeroDrawin2Entity.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/BowOfHeroDrawin2Item.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/bow_of_hero_drawin_2.json"
+        ]
+      },
+      "path": "~/Dungeon item/Annimation"
+    },
+    {
+      "name": "BowOfHerooDrawing3",
+      "type": "rangeditem",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_of_heroo_drawing_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/bow_of_heroo_drawing_3.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/entity/BowOfHerooDrawing3Entity.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/BowOfHerooDrawing3Item.java"
+        ]
+      },
+      "path": "~/Dungeon item/Annimation"
+    },
+    {
+      "name": "Bowofherodrawing",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowofherodrawing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/BowofherodrawingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "BowOfheroStopUse",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_ofhero_stop_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/BowOfheroStopUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Hammer",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/HammerItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/hammer.json"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "Longshot",
+      "type": "rangeditem",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "longshot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/LongshotItem.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/entity/LongshotEntity.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/longshot.json"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "Hover",
+      "type": "armor",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hover",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/hover_boots.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/HoverItem.java"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "MirrorShield",
+      "type": "rangeditem",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mirror_shield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/MirrorShieldItem.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/entity/MirrorShieldEntity.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/mirror_shield.json"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "KokiriEmerauld",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kokiri_emerauld",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/KokiriEmerauldItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/kokiri_emerauld.json"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "ZssTresors",
+      "type": "tab",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zss_tresors",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "GoronRupee",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goron_rupee",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/goron_rupee.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/GoronRupeeItem.java"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "ZorasSapphire",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zoras_sapphire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/zoras_sapphire.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/ZorasSapphireItem.java"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "Boomerangmob",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boomerangmob",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/BoomerangmobProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "EmptyBottle",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/empty_bottle.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/EmptyBottleItem.java"
+        ]
+      },
+      "path": "~/Item/Potion"
+    },
+    {
+      "name": "RedPotion",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/RedPotionItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/red_potion.json"
+        ]
+      },
+      "path": "~/Item/Potion"
+    },
+    {
+      "name": "RedPotionPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_potion_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/RedPotionPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "ZssItem",
+      "type": "tab",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zss_item",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "GreenRupee",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_rupee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/GreenRupeeItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/green_rupee.json"
+        ]
+      },
+      "path": "~/Item/Rupee"
+    },
+    {
+      "name": "BlueRupee",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_rupee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/BlueRupeeItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/blue_rupee.json"
+        ]
+      },
+      "path": "~/Item/Rupee"
+    },
+    {
+      "name": "RedRupee",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_rupee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/RedRupeeItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/red_rupee.json"
+        ]
+      },
+      "path": "~/Item/Rupee"
+    },
+    {
+      "name": "PurpleRupee",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_rupee",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/purple_rupee.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/PurpleRupeeItem.java"
+        ]
+      },
+      "path": "~/Item/Rupee"
+    },
+    {
+      "name": "YellowRupee",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_rupee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/YellowRupeeItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/yellow_rupee.json"
+        ]
+      },
+      "path": "~/Item/Rupee"
+    },
+    {
+      "name": "SilverRupee",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_rupee",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/silver_rupee.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/SilverRupeeItem.java"
+        ]
+      },
+      "path": "~/Item/Rupee"
+    },
+    {
+      "name": "QUESTKEYOnKeyPressed",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "questkey_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/QUESTKEYOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QUESTKEY",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "questkey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/network/QUESTKEYMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "QuestMenu",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_menu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/world/inventory/QuestMenuMenu.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/client/gui/QuestMenuScreen.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "bomb",
+      "files": [
+        "whoosh"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.zelda_sword_skill_reborn.kokiri_tunic_boots": "Kokiri Boots",
+      "item.zelda_sword_skill_reborn.hylian_shield": "Hylian Shield",
+      "item.zelda_sword_skill_reborn.hover_leggings": "Hover Leggings",
+      "item.zelda_sword_skill_reborn.hover_chestplate": "Hover Body",
+      "item.zelda_sword_skill_reborn.purple_rupee": "Purple Rupee",
+      "item.zelda_sword_skill_reborn.hammer": "Hammer",
+      "item.zelda_sword_skill_reborn.bomb": "Bomb",
+      "item.zelda_sword_skill_reborn.empty_bottle": "Empty Bottle",
+      "item.zelda_sword_skill_reborn.bow_of_hero_drawin_2": "Bow Of Hero Drawin 2",
+      "item.zelda_sword_skill_reborn.longshot": "Longshot",
+      "item.zelda_sword_skill_reborn.red_rupee": "Red Rupee",
+      "item.zelda_sword_skill_reborn.fairy_slingshot": "Fairy Slingshot",
+      "item.zelda_sword_skill_reborn.goron_rupee": "Goron Rupee",
+      "item.zelda_sword_skill_reborn.zora_tunic_leggings": "Zora Leggings",
+      "itemGroup.tabzss_equipment": "Zss Equipment",
+      "item.zelda_sword_skill_reborn.mirror_shield": "Mirror Shield",
+      "item.zelda_sword_skill_reborn.goron_tunic_chestplate": "Goron Body",
+      "item.zelda_sword_skill_reborn.zora_tunic_chestplate": "Zora Body",
+      "item.zelda_sword_skill_reborn.zora_tunic_helmet": "Zora Helmet",
+      "item.zelda_sword_skill_reborn.kokiri_tunic_chestplate": "Kokiri Body",
+      "item.zelda_sword_skill_reborn.bow_of_hero_drawing_1": "Bow Of Hero Drawing 1",
+      "gui.zelda_sword_skill_reborn.quest_menu.label_quest_status": "Quest Status",
+      "item.zelda_sword_skill_reborn.bigorron_sword": "Bigorron Sword",
+      "item.zelda_sword_skill_reborn.kokiri_tunic_helmet": "Kokiri Helmet",
+      "item.zelda_sword_skill_reborn.zoras_sapphire": "Zora\u0027s Sapphire",
+      "item.zelda_sword_skill_reborn.silver_rupee": "Silver Rupee",
+      "item.zelda_sword_skill_reborn.bowof_hero": "Bow of Hero",
+      "item.zelda_sword_skill_reborn.bow_of_heroo_drawing_3": "Bow Of Heroo Drawing 3",
+      "item.zelda_sword_skill_reborn.goron_tunic_boots": "Goron Boots",
+      "item.zelda_sword_skill_reborn.goron_tunic_leggings": "Goron Leggings",
+      "item.zelda_sword_skill_reborn.boomerang": "Boomerang",
+      "item.zelda_sword_skill_reborn.kokiri_sword": "Kokiri Sword",
+      "item.zelda_sword_skill_reborn.master_sword": "Master Sword",
+      "item.zelda_sword_skill_reborn.goron_tunic_helmet": "Goron Helmet",
+      "item.zelda_sword_skill_reborn.hover_helmet": "Hover Helmet",
+      "item.zelda_sword_skill_reborn.deku_shield": "Deku Shield",
+      "item.zelda_sword_skill_reborn.deku_seed": "Deku Seed",
+      "key.zelda_sword_skill_reborn.questkey": "Quest Menu",
+      "subtitles.bomb": "",
+      "item.zelda_sword_skill_reborn.yellow_rupee": "Gold Rupee",
+      "itemGroup.tabzss_tresors": "Zss Tresors",
+      "item.zelda_sword_skill_reborn.blue_rupee": "Blue Rupee",
+      "item.zelda_sword_skill_reborn.red_potion": "Red Potion",
+      "item.zelda_sword_skill_reborn.green_rupee": "Green Rupee",
+      "item.zelda_sword_skill_reborn.zora_tunic_boots": "Zora Boots",
+      "item.zelda_sword_skill_reborn.hover_boots": "Hover Boots",
+      "itemGroup.tabzss_item": "Zss Item",
+      "item.zelda_sword_skill_reborn.kokiri_emerauld": "Kokiri Emerauld",
+      "item.zelda_sword_skill_reborn.kokiri_tunic_leggings": "Kokiri Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Sword",
+        "children": []
+      },
+      {
+        "name": "misc",
+        "children": []
+      },
+      {
+        "name": "Procedure",
+        "children": []
+      },
+      {
+        "name": "shield",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Dungeon item",
+        "children": [
+          {
+            "name": "Annimation",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "ammo",
+        "children": []
+      },
+      {
+        "name": "Item",
+        "children": [
+          {
+            "name": "Potion",
+            "children": []
+          },
+          {
+            "name": "Rupee",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Entity",
+        "children": [
+          {
+            "name": "passif",
+            "children": []
+          },
+          {
+            "name": "agressif",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "zelda_sword_skill_reborn",
+    "modName": "Zelda_Sword_Skill_Reborn",
+    "version": "0.1",
+    "author": "vava1, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.zeldaswordskillreborn",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

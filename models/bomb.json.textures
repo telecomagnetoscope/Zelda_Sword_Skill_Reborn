@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "bomb_standarditem",
+        "missing": "bomb_standarditem"
+      },
+      "name": "default"
+    }
+  }
+}

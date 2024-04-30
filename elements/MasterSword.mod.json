@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "master_sword",
+    "customModelName": "Normal",
+    "name": "Master Sword",
+    "specialInfo": [
+      "Created by the goddess Hylia",
+      "the master sword is the only one that can seal evil."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ZssEquipment"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 8.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_fv": 39,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "shield_deku",
+    "customModelName": "deku_shield:default",
+    "name": "Deku Shield",
+    "specialInfo": [
+      "A shield made of bark from the great deku tree."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ZssEquipment"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 2000,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "block",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "useCondition": {
+      "name": "UseDekuShield"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}
