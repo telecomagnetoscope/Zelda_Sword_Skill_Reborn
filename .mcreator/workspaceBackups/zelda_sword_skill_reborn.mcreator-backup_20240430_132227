@@ -852,7 +852,28 @@
         "files": [
           "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/QUESTKEYOnKeyPressedProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     },
     {
@@ -866,6 +887,109 @@
           "src/main/java/net/mcreator/zeldaswordskillreborn/network/QUESTKEYMessage.java"
         ]
       }
+    },
+    {
+      "name": "QuestMenu",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quest_menu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/world/inventory/QuestMenuMenu.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/client/gui/QuestMenuScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "LightMedallion",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_medallion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/LightMedallionItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/light_medallion.json"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "ForestMedallion",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest_medallion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/forest_medallion.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/ForestMedallionItem.java"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "FireMedallion",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_medallion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/fire_medallion.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/FireMedallionItem.java"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "WaterMedallion",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_medallion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/water_medallion.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/WaterMedallionItem.java"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "ShadowMedallion",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_medallion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/shadow_medallion.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/ShadowMedallionItem.java"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "SpiritMedaillion",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spirit_medaillion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/SpiritMedaillionItem.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/spirit_medaillion.json"
+        ]
+      },
+      "path": "~/Dungeon item"
     }
   ],
   "variable_elements": [],
@@ -888,6 +1012,7 @@
       "item.zelda_sword_skill_reborn.purple_rupee": "Purple Rupee",
       "item.zelda_sword_skill_reborn.hammer": "Hammer",
       "item.zelda_sword_skill_reborn.bomb": "Bomb",
+      "item.zelda_sword_skill_reborn.fire_medallion": "Fire Medallion",
       "item.zelda_sword_skill_reborn.empty_bottle": "Empty Bottle",
       "item.zelda_sword_skill_reborn.bow_of_hero_drawin_2": "Bow Of Hero Drawin 2",
       "item.zelda_sword_skill_reborn.longshot": "Longshot",
@@ -897,12 +1022,15 @@
       "item.zelda_sword_skill_reborn.zora_tunic_leggings": "Zora Leggings",
       "itemGroup.tabzss_equipment": "Zss Equipment",
       "item.zelda_sword_skill_reborn.mirror_shield": "Mirror Shield",
-      "item.zelda_sword_skill_reborn.zora_tunic_chestplate": "Zora Body",
       "item.zelda_sword_skill_reborn.goron_tunic_chestplate": "Goron Body",
+      "item.zelda_sword_skill_reborn.zora_tunic_chestplate": "Zora Body",
       "item.zelda_sword_skill_reborn.zora_tunic_helmet": "Zora Helmet",
+      "item.zelda_sword_skill_reborn.shadow_medallion": "Shadow Medallion",
       "item.zelda_sword_skill_reborn.kokiri_tunic_chestplate": "Kokiri Body",
       "item.zelda_sword_skill_reborn.bow_of_hero_drawing_1": "Bow Of Hero Drawing 1",
+      "gui.zelda_sword_skill_reborn.quest_menu.label_quest_status": "Quest Status",
       "item.zelda_sword_skill_reborn.bigorron_sword": "Bigorron Sword",
+      "item.zelda_sword_skill_reborn.spirit_medaillion": "Spirit Medaillion",
       "item.zelda_sword_skill_reborn.kokiri_tunic_helmet": "Kokiri Helmet",
       "item.zelda_sword_skill_reborn.zoras_sapphire": "Zora\u0027s Sapphire",
       "item.zelda_sword_skill_reborn.silver_rupee": "Silver Rupee",
@@ -924,9 +1052,12 @@
       "item.zelda_sword_skill_reborn.blue_rupee": "Blue Rupee",
       "item.zelda_sword_skill_reborn.red_potion": "Red Potion",
       "item.zelda_sword_skill_reborn.green_rupee": "Green Rupee",
+      "item.zelda_sword_skill_reborn.light_medallion": "Light Medallion",
       "item.zelda_sword_skill_reborn.zora_tunic_boots": "Zora Boots",
       "item.zelda_sword_skill_reborn.hover_boots": "Hover Boots",
       "itemGroup.tabzss_item": "Zss Item",
+      "item.zelda_sword_skill_reborn.water_medallion": "Water Medallion",
+      "item.zelda_sword_skill_reborn.forest_medallion": "Forest Medallion",
       "item.zelda_sword_skill_reborn.kokiri_emerauld": "Kokiri Emerauld",
       "item.zelda_sword_skill_reborn.kokiri_tunic_leggings": "Kokiri Leggings"
     }

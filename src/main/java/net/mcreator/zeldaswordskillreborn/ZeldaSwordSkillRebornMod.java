@@ -31,7 +31,6 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.zeldaswordskillreborn.init.ZeldaSwordSkillRebornModTabs;
 import net.mcreator.zeldaswordskillreborn.init.ZeldaSwordSkillRebornModSounds;
-import net.mcreator.zeldaswordskillreborn.init.ZeldaSwordSkillRebornModMenus;
 import net.mcreator.zeldaswordskillreborn.init.ZeldaSwordSkillRebornModItems;
 import net.mcreator.zeldaswordskillreborn.init.ZeldaSwordSkillRebornModEntities;
 
@@ -57,8 +56,6 @@ public class ZeldaSwordSkillRebornMod {
 
 		ZeldaSwordSkillRebornModItems.REGISTRY.register(bus);
 		ZeldaSwordSkillRebornModEntities.REGISTRY.register(bus);
-
-		ZeldaSwordSkillRebornModMenus.REGISTRY.register(bus);
 
 	}
 

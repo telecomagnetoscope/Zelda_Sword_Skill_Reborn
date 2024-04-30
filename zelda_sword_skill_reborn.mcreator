@@ -693,21 +693,6 @@
       "path": "~/Item/Potion"
     },
     {
-      "name": "RedPotion",
-      "type": "item",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_potion",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zeldaswordskillreborn/item/RedPotionItem.java",
-          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/red_potion.json"
-        ]
-      },
-      "path": "~/Item/Potion"
-    },
-    {
       "name": "RedPotionPlayerFinishesUsingItem",
       "type": "procedure",
       "sortid": 42,
@@ -842,66 +827,6 @@
       "path": "~/Item/Rupee"
     },
     {
-      "name": "QUESTKEYOnKeyPressed",
-      "type": "procedure",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "questkey_on_key_pressed",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/QUESTKEYOnKeyPressedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "QUESTKEY",
-      "type": "keybind",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "questkey",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zeldaswordskillreborn/network/QUESTKEYMessage.java"
-        ]
-      }
-    },
-    {
-      "name": "QuestMenu",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "quest_menu",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/zeldaswordskillreborn/world/inventory/QuestMenuMenu.java",
-          "src/main/java/net/mcreator/zeldaswordskillreborn/client/gui/QuestMenuScreen.java"
-        ]
-      }
-    },
-    {
       "name": "LightMedallion",
       "type": "item",
       "sortid": 51,
@@ -1028,7 +953,6 @@
       "item.zelda_sword_skill_reborn.shadow_medallion": "Shadow Medallion",
       "item.zelda_sword_skill_reborn.kokiri_tunic_chestplate": "Kokiri Body",
       "item.zelda_sword_skill_reborn.bow_of_hero_drawing_1": "Bow Of Hero Drawing 1",
-      "gui.zelda_sword_skill_reborn.quest_menu.label_quest_status": "Quest Status",
       "item.zelda_sword_skill_reborn.bigorron_sword": "Bigorron Sword",
       "item.zelda_sword_skill_reborn.spirit_medaillion": "Spirit Medaillion",
       "item.zelda_sword_skill_reborn.kokiri_tunic_helmet": "Kokiri Helmet",
@@ -1045,12 +969,10 @@
       "item.zelda_sword_skill_reborn.hover_helmet": "Hover Helmet",
       "item.zelda_sword_skill_reborn.deku_shield": "Deku Shield",
       "item.zelda_sword_skill_reborn.deku_seed": "Deku Seed",
-      "key.zelda_sword_skill_reborn.questkey": "Quest Menu",
       "subtitles.bomb": "",
       "item.zelda_sword_skill_reborn.yellow_rupee": "Gold Rupee",
       "itemGroup.tabzss_tresors": "Zss Tresors",
       "item.zelda_sword_skill_reborn.blue_rupee": "Blue Rupee",
-      "item.zelda_sword_skill_reborn.red_potion": "Red Potion",
       "item.zelda_sword_skill_reborn.green_rupee": "Green Rupee",
       "item.zelda_sword_skill_reborn.light_medallion": "Light Medallion",
       "item.zelda_sword_skill_reborn.zora_tunic_boots": "Zora Boots",
@@ -1123,6 +1045,14 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Gui",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
       }
     ]
   },

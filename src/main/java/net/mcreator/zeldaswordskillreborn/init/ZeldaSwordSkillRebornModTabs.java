@@ -38,7 +38,7 @@ public class ZeldaSwordSkillRebornModTabs {
 		TAB_ZSS_ITEM = new CreativeModeTab("tabzss_item") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(ZeldaSwordSkillRebornModItems.RED_POTION.get());
+				return new ItemStack(ZeldaSwordSkillRebornModItems.DELETED_MOD_ELEMENT.get());
 			}
 
 			@Override

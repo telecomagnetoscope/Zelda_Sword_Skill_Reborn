@@ -18,7 +18,6 @@ import net.mcreator.zeldaswordskillreborn.item.SpiritMedaillionItem;
 import net.mcreator.zeldaswordskillreborn.item.SilverRupeeItem;
 import net.mcreator.zeldaswordskillreborn.item.ShadowMedallionItem;
 import net.mcreator.zeldaswordskillreborn.item.RedRupeeItem;
-import net.mcreator.zeldaswordskillreborn.item.RedPotionItem;
 import net.mcreator.zeldaswordskillreborn.item.PurpleRupeeItem;
 import net.mcreator.zeldaswordskillreborn.item.MirrorShieldItem;
 import net.mcreator.zeldaswordskillreborn.item.MasterSwordItem;
@@ -84,7 +83,6 @@ public class ZeldaSwordSkillRebornModItems {
 	public static final RegistryObject<Item> GORON_RUPEE = REGISTRY.register("goron_rupee", () -> new GoronRupeeItem());
 	public static final RegistryObject<Item> ZORAS_SAPPHIRE = REGISTRY.register("zoras_sapphire", () -> new ZorasSapphireItem());
 	public static final RegistryObject<Item> EMPTY_BOTTLE = REGISTRY.register("empty_bottle", () -> new EmptyBottleItem());
-	public static final RegistryObject<Item> RED_POTION = REGISTRY.register("red_potion", () -> new RedPotionItem());
 	public static final RegistryObject<Item> GREEN_RUPEE = REGISTRY.register("green_rupee", () -> new GreenRupeeItem());
 	public static final RegistryObject<Item> BLUE_RUPEE = REGISTRY.register("blue_rupee", () -> new BlueRupeeItem());
 	public static final RegistryObject<Item> RED_RUPEE = REGISTRY.register("red_rupee", () -> new RedRupeeItem());
