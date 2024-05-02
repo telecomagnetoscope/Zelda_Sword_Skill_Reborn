@@ -16,5 +16,59 @@
         "stream": true
       }
     ]
+  },
+  "sunssong": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "zelda_sword_skill_reborn:sun",
+        "stream": true
+      }
+    ]
+  },
+  "sariassong": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "zelda_sword_skill_reborn:saria",
+        "stream": true
+      }
+    ]
+  },
+  "eponasong": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "zelda_sword_skill_reborn:epona",
+        "stream": false
+      }
+    ]
+  },
+  "songoftime": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "zelda_sword_skill_reborn:time",
+        "stream": true
+      }
+    ]
+  },
+  "songofstorm": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "zelda_sword_skill_reborn:storms",
+        "stream": true
+      }
+    ]
+  },
+  "minuetofforest": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "zelda_sword_skill_reborn:minuet",
+        "stream": true
+      }
+    ]
   }
 }

@@ -1516,6 +1516,562 @@
         ]
       },
       "path": "~/Procedure"
+    },
+    {
+      "name": "LearnSS",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_ss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/learn_ss.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/learn_ss.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/learn_ss.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/LearnSSBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LearnSSprocedure",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_s_sprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/LearnSSprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "LearnSariasong",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_sariasong",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/LearnSariasongProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "LearnEponaSongprocedure",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_epona_songprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/LearnEponaSongprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "LearnSongOfTimeprocecedure",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_song_of_timeprocecedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/LearnSongOfTimeprocecedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "LearnSongofStormProcedure",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_songof_storm_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/LearnSongofStormProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "SunssongRightclicked",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunssong_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/SunssongRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Item/ocarina"
+    },
+    {
+      "name": "SongofStormRightclicked",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "songof_storm_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/SongofStormRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Item/ocarina"
+    },
+    {
+      "name": "LearnSaS",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_sa_s",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/learn_sa_s.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/LearnSaSBlock.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/learn_sa_s.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/learn_sa_s.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LearnEponasong",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_eponasong",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/learn_eponasong.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/learn_eponasong.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/learn_eponasong.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/LearnEponasongBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LearnSt",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_st",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/learn_st.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/LearnStBlock.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/learn_st.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/learn_st.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LearnStS",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_st_s",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/learn_st_s.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/LearnStSBlock.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/learn_st_s.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/learn_st_s.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RoyalFamilyBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_family_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/RoyalFamilyBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RoyalFamilyBlock",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_family_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/RoyalFamilyBlockBlock.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/royal_family_block.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/royal_family_block.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/royal_family_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BlockofTime",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockof_time",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/blockof_time.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/BlockofTimeBlock.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/blockof_time.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/blockof_time.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blockoftimerightclick",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockoftimerightclick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/BlockoftimerightclickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GateOfTime",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gate_of_time",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/gate_of_time.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/gate_of_time.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/GateOfTimeBlock.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/gate_of_time.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GateoftimeGUI",
+      "type": "gui",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gateoftime_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/world/inventory/GateoftimeGUIMenu.java",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/client/gui/GateoftimeGUIScreen.java"
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "GateOfTimeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gate_of_time_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/GateOfTimeOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "TpMinuet",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_minuet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/tp_minuet.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/TpMinuetBlock.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/tp_minuet.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/tp_minuet.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LearnandTpMinuetofforest",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learnand_tp_minuetofforest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/LearnandTpMinuetofforestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
     }
   ],
   "variable_elements": [
@@ -1542,64 +2098,95 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "sunssong",
+      "files": [
+        "sun"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "sariassong",
+      "files": [
+        "saria"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "eponasong",
+      "files": [
+        "epona"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "songoftime",
+      "files": [
+        "time"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "songofstorm",
+      "files": [
+        "storms"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "minuetofforest",
+      "files": [
+        "minuet"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "item.zelda_sword_skill_reborn.kokiri_tunic_boots": "Kokiri Boots",
-      "item.zelda_sword_skill_reborn.hylian_shield": "Hylian Shield",
-      "gui.zelda_sword_skill_reborn.wallet_gui.label_wallet": "Wallet",
       "gui.zelda_sword_skill_reborn.ocarina_gui.label_ocarina_menu": "Ocarina Menu",
+      "gui.zelda_sword_skill_reborn.wallet_gui.label_wallet": "Wallet",
       "item.zelda_sword_skill_reborn.hover_leggings": "Hover Leggings",
-      "item.zelda_sword_skill_reborn.hover_chestplate": "Hover Body",
       "item.zelda_sword_skill_reborn.purple_rupee": "Purple Rupee",
-      "gui.zelda_sword_skill_reborn.wallet_gui.button_purple_rupee": "Purple Rupee",
       "item.zelda_sword_skill_reborn.hammer": "Hammer",
       "itemGroup.tabzss_music": "Zss Music",
       "item.zelda_sword_skill_reborn.bomb": "Bomb",
       "item.zelda_sword_skill_reborn.deku_stick": "Deku Stick",
+      "subtitles.songofstorm": "",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee3": "100 Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee4": "500 Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee1": "20 Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee2": "50 Rupee",
       "item.zelda_sword_skill_reborn.fire_medallion": "Fire Medallion",
-      "item.zelda_sword_skill_reborn.empty_bottle": "Empty Bottle",
-      "item.zelda_sword_skill_reborn.fairy_ocarina": "Fairy Ocarina",
       "item.zelda_sword_skill_reborn.nocturneof_shadow": "Nocturne of Shadow",
-      "item.zelda_sword_skill_reborn.rupee_wallet": "Rupee Wallet",
-      "item.zelda_sword_skill_reborn.sariassong": "Saria\u0027 Song",
       "item.zelda_sword_skill_reborn.zeldas_lullaby": "Zeldas Lullaby",
       "item.zelda_sword_skill_reborn.bow_of_hero_drawin_2": "Bow Of Hero Drawin 2",
       "item.zelda_sword_skill_reborn.longshot": "Longshot",
+      "subtitles.eponasong": "",
       "item.zelda_sword_skill_reborn.red_rupee": "Red Rupee",
-      "item.zelda_sword_skill_reborn.goron_rupee": "Goron Rupee",
-      "item.zelda_sword_skill_reborn.fairy_slingshot": "Fairy Slingshot",
       "item.zelda_sword_skill_reborn.item_menu": "Item Menu",
-      "item.zelda_sword_skill_reborn.zora_tunic_leggings": "Zora Leggings",
       "itemGroup.tabzss_equipment": "Zss Equipment",
       "gui.zelda_sword_skill_reborn.wallet_gui.label_rupee_wallet": "Rupee Wallet",
-      "block.zelda_sword_skill_reborn.learn_zl": "Learn ZL",
-      "item.zelda_sword_skill_reborn.mirror_shield": "Mirror Shield",
-      "item.zelda_sword_skill_reborn.goron_tunic_chestplate": "Goron Body",
       "item.zelda_sword_skill_reborn.zora_tunic_chestplate": "Zora Body",
-      "item.zelda_sword_skill_reborn.zora_tunic_helmet": "Zora Helmet",
       "item.zelda_sword_skill_reborn.shadow_medallion": "Shadow Medallion",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_green_rupee": "Green Rupee",
       "item.zelda_sword_skill_reborn.kokiri_tunic_chestplate": "Kokiri Body",
-      "item.zelda_sword_skill_reborn.bow_of_hero_drawing_1": "Bow Of Hero Drawing 1",
       "item.zelda_sword_skill_reborn.preludeof_light": "Prelude of Light",
-      "gui.zelda_sword_skill_reborn.wallet_gui.button_1_rupee": "1 Rupee",
-      "item.zelda_sword_skill_reborn.bigorron_sword": "Bigorron Sword",
       "item.zelda_sword_skill_reborn.spirit_medaillion": "Spirit Medaillion",
       "item.zelda_sword_skill_reborn.kokiri_tunic_helmet": "Kokiri Helmet",
       "item.zelda_sword_skill_reborn.zoras_sapphire": "Zora\u0027s Sapphire",
       "item.zelda_sword_skill_reborn.eponasong": "Epona Song",
       "item.zelda_sword_skill_reborn.silver_rupee": "Silver Rupee",
-      "item.zelda_sword_skill_reborn.requiemof_spirits": "Requiem of Spirit",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_red_rupee": "Red Rupee",
-      "item.zelda_sword_skill_reborn.bowof_hero": "Bow of Hero",
+      "subtitles.minuetofforest": "",
       "item.zelda_sword_skill_reborn.bow_of_heroo_drawing_3": "Bow Of Heroo Drawing 3",
-      "gui.zelda_sword_skill_reborn.wallet_gui.button_yellow_rupee": "Yellow Rupee",
+      "item.zelda_sword_skill_reborn.bowof_hero": "Bow of Hero",
       "item.zelda_sword_skill_reborn.song_of_time": "Song of Time",
       "item.zelda_sword_skill_reborn.goron_tunic_boots": "Goron Boots",
       "item.zelda_sword_skill_reborn.goron_tunic_leggings": "Goron Leggings",
@@ -1607,36 +2194,68 @@
       "gui.zelda_sword_skill_reborn.wallet_gui.button_silver_rupee": "Silver Rupee",
       "item.zelda_sword_skill_reborn.kokiri_sword": "Kokiri Sword",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_blue_rupee": "Blue Rupee",
+      "block.zelda_sword_skill_reborn.gate_of_time": "Gate Of Time",
       "item.zelda_sword_skill_reborn.master_sword": "Master Sword",
       "item.zelda_sword_skill_reborn.goron_tunic_helmet": "Goron Helmet",
-      "item.zelda_sword_skill_reborn.sunssong": "Sun\u0027s Song",
       "item.zelda_sword_skill_reborn.hover_helmet": "Hover Helmet",
       "item.zelda_sword_skill_reborn.deku_shield": "Deku Shield",
-      "item.zelda_sword_skill_reborn.serenadeof_water": "Serenade of Water",
       "item.zelda_sword_skill_reborn.deku_seed": "Deku Seed",
+      "block.zelda_sword_skill_reborn.learn_sa_s": "Learn Sas",
       "subtitles.bomb": "",
-      "item.zelda_sword_skill_reborn.yellow_rupee": "Gold Rupee",
-      "item.zelda_sword_skill_reborn.gear_menu": "Gear Menu",
       "subtitles.zeldaslullaby": "",
-      "itemGroup.tabzss_tresors": "Zss Tresors",
-      "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee": "5 Rupee",
       "item.zelda_sword_skill_reborn.blue_rupee": "Blue Rupee",
       "item.zelda_sword_skill_reborn.ocarina_of_time": "Ocarina Of Time",
-      "item.zelda_sword_skill_reborn.songof_storm": "Song of Storm",
       "item.zelda_sword_skill_reborn.hookshot": "Hookshot",
       "item.zelda_sword_skill_reborn.green_rupee": "Green Rupee",
-      "item.zelda_sword_skill_reborn.minuetof_forest": "Minuet of Forest",
       "item.zelda_sword_skill_reborn.light_medallion": "Light Medallion",
-      "item.zelda_sword_skill_reborn.boleroof_fire": "Bolero of Fire",
+      "block.zelda_sword_skill_reborn.learn_eponasong": "Learn ES",
       "item.zelda_sword_skill_reborn.zora_tunic_boots": "Zora Boots",
-      "item.zelda_sword_skill_reborn.hover_boots": "Hover Boots",
-      "itemGroup.tabzss_item": "Zss Item",
       "gui.zelda_sword_skill_reborn.wallet_gui.label_empty": "",
       "item.zelda_sword_skill_reborn.water_medallion": "Water Medallion",
+      "block.zelda_sword_skill_reborn.blockof_time": "Block of Time",
+      "item.zelda_sword_skill_reborn.kokiri_tunic_leggings": "Kokiri Leggings",
+      "item.zelda_sword_skill_reborn.kokiri_tunic_boots": "Kokiri Boots",
+      "item.zelda_sword_skill_reborn.hylian_shield": "Hylian Shield",
+      "subtitles.sariassong": "",
+      "item.zelda_sword_skill_reborn.hover_chestplate": "Hover Body",
+      "gui.zelda_sword_skill_reborn.wallet_gui.button_purple_rupee": "Purple Rupee",
+      "item.zelda_sword_skill_reborn.empty_bottle": "Empty Bottle",
+      "item.zelda_sword_skill_reborn.fairy_ocarina": "Fairy Ocarina",
+      "item.zelda_sword_skill_reborn.rupee_wallet": "Rupee Wallet",
+      "item.zelda_sword_skill_reborn.sariassong": "Saria\u0027 Song",
+      "block.zelda_sword_skill_reborn.learn_st": "Learn ST",
+      "block.zelda_sword_skill_reborn.learn_ss": "Learn SS",
+      "item.zelda_sword_skill_reborn.goron_rupee": "Goron Rupee",
+      "item.zelda_sword_skill_reborn.fairy_slingshot": "Fairy Slingshot",
+      "item.zelda_sword_skill_reborn.zora_tunic_leggings": "Zora Leggings",
+      "block.zelda_sword_skill_reborn.learn_zl": "Learn ZL",
+      "item.zelda_sword_skill_reborn.mirror_shield": "Mirror Shield",
+      "item.zelda_sword_skill_reborn.goron_tunic_chestplate": "Goron Body",
+      "item.zelda_sword_skill_reborn.zora_tunic_helmet": "Zora Helmet",
+      "block.zelda_sword_skill_reborn.royal_family_block": "Royal Family Block",
+      "item.zelda_sword_skill_reborn.bow_of_hero_drawing_1": "Bow Of Hero Drawing 1",
+      "block.zelda_sword_skill_reborn.learn_st_s": "Learn StS",
+      "gui.zelda_sword_skill_reborn.wallet_gui.button_1_rupee": "1 Rupee",
+      "subtitles.sunssong": "",
+      "item.zelda_sword_skill_reborn.bigorron_sword": "Bigorron Sword",
+      "item.zelda_sword_skill_reborn.requiemof_spirits": "Requiem of Spirit",
+      "gui.zelda_sword_skill_reborn.wallet_gui.button_yellow_rupee": "Yellow Rupee",
+      "item.zelda_sword_skill_reborn.sunssong": "Sun\u0027s Song",
+      "item.zelda_sword_skill_reborn.serenadeof_water": "Serenade of Water",
+      "item.zelda_sword_skill_reborn.yellow_rupee": "Gold Rupee",
+      "item.zelda_sword_skill_reborn.gear_menu": "Gear Menu",
+      "itemGroup.tabzss_tresors": "Zss Tresors",
+      "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee": "5 Rupee",
+      "item.zelda_sword_skill_reborn.songof_storm": "Song of Storm",
+      "item.zelda_sword_skill_reborn.minuetof_forest": "Minuet of Forest",
+      "item.zelda_sword_skill_reborn.boleroof_fire": "Bolero of Fire",
+      "item.zelda_sword_skill_reborn.hover_boots": "Hover Boots",
+      "itemGroup.tabzss_item": "Zss Item",
       "item.zelda_sword_skill_reborn.forest_medallion": "Forest Medallion",
       "item.zelda_sword_skill_reborn.kokiri_emerauld": "Kokiri Emerauld",
+      "block.zelda_sword_skill_reborn.tp_minuet": "Tp Minuet",
       "gui.zelda_sword_skill_reborn.gear_menu_gui.label_quest_menu": "Quest Menu",
-      "item.zelda_sword_skill_reborn.kokiri_tunic_leggings": "Kokiri Leggings"
+      "subtitles.songoftime": ""
     }
   },
   "foldersRoot": {

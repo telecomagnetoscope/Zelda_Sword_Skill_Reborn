@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zelda_sword_skill_reborn:blocks/inscription",
+    "up": "zelda_sword_skill_reborn:blocks/inscription",
+    "north": "zelda_sword_skill_reborn:blocks/royal_block_face",
+    "east": "zelda_sword_skill_reborn:blocks/inscription",
+    "south": "zelda_sword_skill_reborn:blocks/inscription",
+    "west": "zelda_sword_skill_reborn:blocks/inscription",
+    "particle": "zelda_sword_skill_reborn:blocks/inscription"
+  },
+  "render_type": "solid"
+}

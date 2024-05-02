@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "time_block_face",
+        "3": "time_block"
+      },
+      "name": "default"
+    }
+  }
+}

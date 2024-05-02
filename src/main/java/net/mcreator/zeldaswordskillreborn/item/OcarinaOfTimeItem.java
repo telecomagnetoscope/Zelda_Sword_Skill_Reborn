@@ -31,7 +31,7 @@ import io.netty.buffer.Unpooled;
 
 public class OcarinaOfTimeItem extends Item {
 	public OcarinaOfTimeItem() {
-		super(new Item.Properties().tab(ZeldaSwordSkillRebornModTabs.TAB_ZSS_TRESORS).stacksTo(1).fireResistant().rarity(Rarity.RARE));
+		super(new Item.Properties().tab(ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC).stacksTo(1).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override

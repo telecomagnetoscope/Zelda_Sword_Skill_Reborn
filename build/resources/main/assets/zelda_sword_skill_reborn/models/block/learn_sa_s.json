@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zelda_sword_skill_reborn:blocks/warp_stone",
+    "up": "zelda_sword_skill_reborn:blocks/warp_stone",
+    "north": "zelda_sword_skill_reborn:blocks/warp_stone",
+    "east": "zelda_sword_skill_reborn:blocks/warp_stone",
+    "south": "zelda_sword_skill_reborn:blocks/warp_stone",
+    "west": "zelda_sword_skill_reborn:blocks/warp_stone",
+    "particle": "zelda_sword_skill_reborn:blocks/warp_stone"
+  },
+  "render_type": "solid"
+}

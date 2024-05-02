@@ -31,7 +31,7 @@ import io.netty.buffer.Unpooled;
 
 public class FairyOcarinaItem extends Item {
 	public FairyOcarinaItem() {
-		super(new Item.Properties().tab(ZeldaSwordSkillRebornModTabs.TAB_ZSS_TRESORS).stacksTo(1).fireResistant().rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC).stacksTo(1).fireResistant().rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

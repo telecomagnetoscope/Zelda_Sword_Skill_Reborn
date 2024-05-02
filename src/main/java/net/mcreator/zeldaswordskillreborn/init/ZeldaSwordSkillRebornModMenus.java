@@ -15,6 +15,7 @@ import net.mcreator.zeldaswordskillreborn.world.inventory.WalletGUIMenu;
 import net.mcreator.zeldaswordskillreborn.world.inventory.OcarinaGuiMenu;
 import net.mcreator.zeldaswordskillreborn.world.inventory.ItemGuiMenu;
 import net.mcreator.zeldaswordskillreborn.world.inventory.GearMenuGUIMenu;
+import net.mcreator.zeldaswordskillreborn.world.inventory.GateoftimeGUIMenu;
 import net.mcreator.zeldaswordskillreborn.ZeldaSwordSkillRebornMod;
 
 public class ZeldaSwordSkillRebornModMenus {
@@ -23,4 +24,5 @@ public class ZeldaSwordSkillRebornModMenus {
 	public static final RegistryObject<MenuType<ItemGuiMenu>> ITEM_GUI = REGISTRY.register("item_gui", () -> IForgeMenuType.create(ItemGuiMenu::new));
 	public static final RegistryObject<MenuType<WalletGUIMenu>> WALLET_GUI = REGISTRY.register("wallet_gui", () -> IForgeMenuType.create(WalletGUIMenu::new));
 	public static final RegistryObject<MenuType<OcarinaGuiMenu>> OCARINA_GUI = REGISTRY.register("ocarina_gui", () -> IForgeMenuType.create(OcarinaGuiMenu::new));
+	public static final RegistryObject<MenuType<GateoftimeGUIMenu>> GATEOFTIME_GUI = REGISTRY.register("gateoftime_gui", () -> IForgeMenuType.create(GateoftimeGUIMenu::new));
 }

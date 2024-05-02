@@ -136,7 +136,16 @@ public class ZeldaSwordSkillRebornModItems {
 	public static final RegistryObject<Item> NOCTURNEOF_SHADOW = REGISTRY.register("nocturneof_shadow", () -> new NocturneofShadowItem());
 	public static final RegistryObject<Item> REQUIEMOF_SPIRITS = REGISTRY.register("requiemof_spirits", () -> new RequiemofSpiritsItem());
 	public static final RegistryObject<Item> PRELUDEOF_LIGHT = REGISTRY.register("preludeof_light", () -> new PreludeofLightItem());
-	public static final RegistryObject<Item> LEARN_ZL = block(ZeldaSwordSkillRebornModBlocks.LEARN_ZL, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> LEARN_ZL = block(ZeldaSwordSkillRebornModBlocks.LEARN_ZL, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
+	public static final RegistryObject<Item> LEARN_SS = block(ZeldaSwordSkillRebornModBlocks.LEARN_SS, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
+	public static final RegistryObject<Item> LEARN_SA_S = block(ZeldaSwordSkillRebornModBlocks.LEARN_SA_S, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
+	public static final RegistryObject<Item> LEARN_EPONASONG = block(ZeldaSwordSkillRebornModBlocks.LEARN_EPONASONG, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
+	public static final RegistryObject<Item> LEARN_ST = block(ZeldaSwordSkillRebornModBlocks.LEARN_ST, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
+	public static final RegistryObject<Item> LEARN_ST_S = block(ZeldaSwordSkillRebornModBlocks.LEARN_ST_S, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
+	public static final RegistryObject<Item> ROYAL_FAMILY_BLOCK = block(ZeldaSwordSkillRebornModBlocks.ROYAL_FAMILY_BLOCK, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
+	public static final RegistryObject<Item> BLOCKOF_TIME = block(ZeldaSwordSkillRebornModBlocks.BLOCKOF_TIME, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
+	public static final RegistryObject<Item> GATE_OF_TIME = block(ZeldaSwordSkillRebornModBlocks.GATE_OF_TIME, ZeldaSwordSkillRebornModTabs.TAB_ZSS_EQUIPMENT);
+	public static final RegistryObject<Item> TP_MINUET = block(ZeldaSwordSkillRebornModBlocks.TP_MINUET, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

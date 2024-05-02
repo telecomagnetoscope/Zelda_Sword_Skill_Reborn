@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zelda_sword_skill_reborn:blocks/time_block",
+    "up": "zelda_sword_skill_reborn:blocks/time_block",
+    "north": "zelda_sword_skill_reborn:blocks/time_block_face",
+    "east": "zelda_sword_skill_reborn:blocks/time_block_face",
+    "south": "zelda_sword_skill_reborn:blocks/time_block_face",
+    "west": "zelda_sword_skill_reborn:blocks/time_block_face",
+    "particle": "zelda_sword_skill_reborn:blocks/time_block"
+  },
+  "render_type": "solid"
+}
