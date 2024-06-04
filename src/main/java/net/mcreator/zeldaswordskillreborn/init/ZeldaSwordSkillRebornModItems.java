@@ -42,6 +42,7 @@ import net.mcreator.zeldaswordskillreborn.item.KokiriTunicItem;
 import net.mcreator.zeldaswordskillreborn.item.KokiriSwordItem;
 import net.mcreator.zeldaswordskillreborn.item.KokiriEmerauldItem;
 import net.mcreator.zeldaswordskillreborn.item.ItemMenuItem;
+import net.mcreator.zeldaswordskillreborn.item.IronBootsItem;
 import net.mcreator.zeldaswordskillreborn.item.HylianShieldItem;
 import net.mcreator.zeldaswordskillreborn.item.HoverItem;
 import net.mcreator.zeldaswordskillreborn.item.HookshotItem;
@@ -146,6 +147,8 @@ public class ZeldaSwordSkillRebornModItems {
 	public static final RegistryObject<Item> BLOCKOF_TIME = block(ZeldaSwordSkillRebornModBlocks.BLOCKOF_TIME, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
 	public static final RegistryObject<Item> GATE_OF_TIME = block(ZeldaSwordSkillRebornModBlocks.GATE_OF_TIME, ZeldaSwordSkillRebornModTabs.TAB_ZSS_EQUIPMENT);
 	public static final RegistryObject<Item> TP_MINUET = block(ZeldaSwordSkillRebornModBlocks.TP_MINUET, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
+	public static final RegistryObject<Item> TP_BOLERO = block(ZeldaSwordSkillRebornModBlocks.TP_BOLERO, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
+	public static final RegistryObject<Item> IRON_BOOTS_BOOTS = REGISTRY.register("iron_boots_boots", () -> new IronBootsItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

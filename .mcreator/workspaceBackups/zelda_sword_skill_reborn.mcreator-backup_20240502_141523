@@ -1983,6 +1983,148 @@
         ]
       },
       "path": "~/Gui"
+    },
+    {
+      "name": "GateOfTimeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gate_of_time_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/GateOfTimeOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "TpMinuet",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_minuet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/tp_minuet.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/TpMinuetBlock.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/tp_minuet.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/tp_minuet.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LearnandTpMinuetofforest",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learnand_tp_minuetofforest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/LearnandTpMinuetofforestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "TPBolero",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_bolero",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/tp_bolero.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/tp_bolero.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/tp_bolero.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/TPBoleroBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Learnbolero",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learnbolero",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/LearnboleroProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
     }
   ],
   "variable_elements": [
@@ -2049,12 +2191,28 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "minuetofforest",
+      "files": [
+        "minuet"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "bolerooffire",
+      "files": [
+        "bolero"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "gui.zelda_sword_skill_reborn.wallet_gui.label_wallet": "Wallet",
       "gui.zelda_sword_skill_reborn.ocarina_gui.label_ocarina_menu": "Ocarina Menu",
+      "gui.zelda_sword_skill_reborn.wallet_gui.label_wallet": "Wallet",
       "item.zelda_sword_skill_reborn.hover_leggings": "Hover Leggings",
       "item.zelda_sword_skill_reborn.purple_rupee": "Purple Rupee",
       "item.zelda_sword_skill_reborn.hammer": "Hammer",
@@ -2087,6 +2245,7 @@
       "item.zelda_sword_skill_reborn.eponasong": "Epona Song",
       "item.zelda_sword_skill_reborn.silver_rupee": "Silver Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_red_rupee": "Red Rupee",
+      "subtitles.minuetofforest": "",
       "item.zelda_sword_skill_reborn.bow_of_heroo_drawing_3": "Bow Of Heroo Drawing 3",
       "item.zelda_sword_skill_reborn.bowof_hero": "Bow of Hero",
       "item.zelda_sword_skill_reborn.song_of_time": "Song of Time",
@@ -2114,6 +2273,7 @@
       "item.zelda_sword_skill_reborn.zora_tunic_boots": "Zora Boots",
       "gui.zelda_sword_skill_reborn.wallet_gui.label_empty": "",
       "item.zelda_sword_skill_reborn.water_medallion": "Water Medallion",
+      "block.zelda_sword_skill_reborn.tp_bolero": "Tp Minuet",
       "block.zelda_sword_skill_reborn.blockof_time": "Block of Time",
       "item.zelda_sword_skill_reborn.kokiri_tunic_leggings": "Kokiri Leggings",
       "item.zelda_sword_skill_reborn.kokiri_tunic_boots": "Kokiri Boots",
@@ -2153,8 +2313,10 @@
       "item.zelda_sword_skill_reborn.boleroof_fire": "Bolero of Fire",
       "item.zelda_sword_skill_reborn.hover_boots": "Hover Boots",
       "itemGroup.tabzss_item": "Zss Item",
+      "subtitles.bolerooffire": "",
       "item.zelda_sword_skill_reborn.forest_medallion": "Forest Medallion",
       "item.zelda_sword_skill_reborn.kokiri_emerauld": "Kokiri Emerauld",
+      "block.zelda_sword_skill_reborn.tp_minuet": "Tp Minuet",
       "gui.zelda_sword_skill_reborn.gear_menu_gui.label_quest_menu": "Quest Menu",
       "subtitles.songoftime": ""
     }

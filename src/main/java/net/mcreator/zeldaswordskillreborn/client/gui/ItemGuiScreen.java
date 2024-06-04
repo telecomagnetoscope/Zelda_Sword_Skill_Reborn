@@ -67,6 +67,7 @@ public class ItemGuiScreen extends AbstractContainerScreen<ItemGuiMenu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, Component.translatable("gui.zelda_sword_skill_reborn.item_gui.label_item_menu"), 6, 6, -12829636);
 	}
 
 	@Override

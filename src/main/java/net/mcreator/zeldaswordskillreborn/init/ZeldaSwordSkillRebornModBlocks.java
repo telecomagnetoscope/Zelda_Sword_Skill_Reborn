@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.zeldaswordskillreborn.block.TpMinuetBlock;
+import net.mcreator.zeldaswordskillreborn.block.TPBoleroBlock;
 import net.mcreator.zeldaswordskillreborn.block.RoyalFamilyBlockBlock;
 import net.mcreator.zeldaswordskillreborn.block.LearnZLBlock;
 import net.mcreator.zeldaswordskillreborn.block.LearnStSBlock;
@@ -34,4 +35,5 @@ public class ZeldaSwordSkillRebornModBlocks {
 	public static final RegistryObject<Block> BLOCKOF_TIME = REGISTRY.register("blockof_time", () -> new BlockofTimeBlock());
 	public static final RegistryObject<Block> GATE_OF_TIME = REGISTRY.register("gate_of_time", () -> new GateOfTimeBlock());
 	public static final RegistryObject<Block> TP_MINUET = REGISTRY.register("tp_minuet", () -> new TpMinuetBlock());
+	public static final RegistryObject<Block> TP_BOLERO = REGISTRY.register("tp_bolero", () -> new TPBoleroBlock());
 }

@@ -10,6 +10,9 @@
     "textureLeggings": "",
     "enableBoots": true,
     "textureBoots": "boots_hover",
+    "onBootsTick": {
+      "name": "Hoverboots"
+    },
     "creativeTab": {
       "value": "CUSTOM:ZssEquipment"
     },

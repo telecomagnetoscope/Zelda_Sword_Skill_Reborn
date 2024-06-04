@@ -482,7 +482,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:Longshot"
+            "value": "CUSTOM:IronBoots.boots"
           },
           "disablePlacement": {
             "fixedValue": false
@@ -500,7 +500,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": "CUSTOM:Hover.boots"
+            "value": "CUSTOM:Longshot"
           },
           "disablePlacement": {
             "fixedValue": false
@@ -518,7 +518,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:Hover.boots"
           },
           "disablePlacement": {
             "fixedValue": false
@@ -608,7 +608,7 @@
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:RupeeWallet"
           },
           "disablePlacement": {
             "fixedValue": false
@@ -621,6 +621,21 @@
           "x": 222,
           "y": 62
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_item_menu",
+          "text": {
+            "fixedValue": "Item Menu"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 98,
+          "y": 27
+        }
       }
     ],
     "gridSettings": {
@@ -628,7 +643,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

@@ -2072,11 +2072,145 @@
         ]
       },
       "path": "~/Procedure"
+    },
+    {
+      "name": "TPBolero",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp_bolero",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/tp_bolero.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/tp_bolero.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/tp_bolero.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/TPBoleroBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Learnbolero",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learnbolero",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/LearnboleroProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "IronBoots",
+      "type": "armor",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/iron_boots_boots.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/item/IronBootsItem.java"
+        ]
+      },
+      "path": "~/Dungeon item"
+    },
+    {
+      "name": "Hoverboots",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoverboots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/HoverbootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Ironbootsprocedure",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbootsprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/IronbootsprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
     }
   ],
   "variable_elements": [
     {
       "name": "Rupee",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "Minuetxyz",
       "type": "number",
       "scope": "map",
       "value": "0.0"
@@ -2146,6 +2280,14 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "bolerooffire",
+      "files": [
+        "bolero"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -2154,11 +2296,11 @@
       "gui.zelda_sword_skill_reborn.wallet_gui.label_wallet": "Wallet",
       "item.zelda_sword_skill_reborn.hover_leggings": "Hover Leggings",
       "item.zelda_sword_skill_reborn.purple_rupee": "Purple Rupee",
-      "item.zelda_sword_skill_reborn.hammer": "Hammer",
       "itemGroup.tabzss_music": "Zss Music",
+      "item.zelda_sword_skill_reborn.hammer": "Hammer",
       "item.zelda_sword_skill_reborn.bomb": "Bomb",
-      "item.zelda_sword_skill_reborn.deku_stick": "Deku Stick",
       "subtitles.songofstorm": "",
+      "item.zelda_sword_skill_reborn.deku_stick": "Deku Stick",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee3": "100 Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee4": "500 Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee1": "20 Rupee",
@@ -2185,14 +2327,15 @@
       "item.zelda_sword_skill_reborn.silver_rupee": "Silver Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_red_rupee": "Red Rupee",
       "subtitles.minuetofforest": "",
-      "item.zelda_sword_skill_reborn.bow_of_heroo_drawing_3": "Bow Of Heroo Drawing 3",
       "item.zelda_sword_skill_reborn.bowof_hero": "Bow of Hero",
+      "item.zelda_sword_skill_reborn.bow_of_heroo_drawing_3": "Bow Of Heroo Drawing 3",
       "item.zelda_sword_skill_reborn.song_of_time": "Song of Time",
       "item.zelda_sword_skill_reborn.goron_tunic_boots": "Goron Boots",
       "item.zelda_sword_skill_reborn.goron_tunic_leggings": "Goron Leggings",
       "item.zelda_sword_skill_reborn.boomerang": "Boomerang",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_silver_rupee": "Silver Rupee",
       "item.zelda_sword_skill_reborn.kokiri_sword": "Kokiri Sword",
+      "item.zelda_sword_skill_reborn.iron_boots_chestplate": "Iron Boots Body",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_blue_rupee": "Blue Rupee",
       "block.zelda_sword_skill_reborn.gate_of_time": "Gate Of Time",
       "item.zelda_sword_skill_reborn.master_sword": "Master Sword",
@@ -2212,6 +2355,7 @@
       "item.zelda_sword_skill_reborn.zora_tunic_boots": "Zora Boots",
       "gui.zelda_sword_skill_reborn.wallet_gui.label_empty": "",
       "item.zelda_sword_skill_reborn.water_medallion": "Water Medallion",
+      "block.zelda_sword_skill_reborn.tp_bolero": "Tp Minuet",
       "block.zelda_sword_skill_reborn.blockof_time": "Block of Time",
       "item.zelda_sword_skill_reborn.kokiri_tunic_leggings": "Kokiri Leggings",
       "item.zelda_sword_skill_reborn.kokiri_tunic_boots": "Kokiri Boots",
@@ -2229,6 +2373,7 @@
       "item.zelda_sword_skill_reborn.fairy_slingshot": "Fairy Slingshot",
       "item.zelda_sword_skill_reborn.zora_tunic_leggings": "Zora Leggings",
       "block.zelda_sword_skill_reborn.learn_zl": "Learn ZL",
+      "item.zelda_sword_skill_reborn.iron_boots_leggings": "Iron Boots Leggings",
       "item.zelda_sword_skill_reborn.mirror_shield": "Mirror Shield",
       "item.zelda_sword_skill_reborn.goron_tunic_chestplate": "Goron Body",
       "item.zelda_sword_skill_reborn.zora_tunic_helmet": "Zora Helmet",
@@ -2241,16 +2386,20 @@
       "item.zelda_sword_skill_reborn.requiemof_spirits": "Requiem of Spirit",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_yellow_rupee": "Yellow Rupee",
       "item.zelda_sword_skill_reborn.sunssong": "Sun\u0027s Song",
+      "gui.zelda_sword_skill_reborn.item_gui.label_item_menu": "Item Menu",
       "item.zelda_sword_skill_reborn.serenadeof_water": "Serenade of Water",
+      "item.zelda_sword_skill_reborn.iron_boots_helmet": "Iron Boots Helmet",
       "item.zelda_sword_skill_reborn.yellow_rupee": "Gold Rupee",
       "item.zelda_sword_skill_reborn.gear_menu": "Gear Menu",
       "itemGroup.tabzss_tresors": "Zss Tresors",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee": "5 Rupee",
+      "item.zelda_sword_skill_reborn.iron_boots_boots": "Iron Boots",
       "item.zelda_sword_skill_reborn.songof_storm": "Song of Storm",
       "item.zelda_sword_skill_reborn.minuetof_forest": "Minuet of Forest",
       "item.zelda_sword_skill_reborn.boleroof_fire": "Bolero of Fire",
       "item.zelda_sword_skill_reborn.hover_boots": "Hover Boots",
       "itemGroup.tabzss_item": "Zss Item",
+      "subtitles.bolerooffire": "",
       "item.zelda_sword_skill_reborn.forest_medallion": "Forest Medallion",
       "item.zelda_sword_skill_reborn.kokiri_emerauld": "Kokiri Emerauld",
       "block.zelda_sword_skill_reborn.tp_minuet": "Tp Minuet",

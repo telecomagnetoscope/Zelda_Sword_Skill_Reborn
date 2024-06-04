@@ -70,5 +70,14 @@
         "stream": true
       }
     ]
+  },
+  "bolerooffire": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "zelda_sword_skill_reborn:bolero",
+        "stream": true
+      }
+    ]
   }
 }

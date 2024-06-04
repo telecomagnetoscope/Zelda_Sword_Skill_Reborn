@@ -235,16 +235,20 @@ public class ItemGuiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 77, 42) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return ZeldaSwordSkillRebornModItems.LONGSHOT.get() == stack.getItem();
+				return ZeldaSwordSkillRebornModItems.IRON_BOOTS_BOOTS.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(27, this.addSlot(new SlotItemHandler(internal, 27, 95, 42) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return ZeldaSwordSkillRebornModItems.HOVER_BOOTS.get() == stack.getItem();
+				return ZeldaSwordSkillRebornModItems.LONGSHOT.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(28, this.addSlot(new SlotItemHandler(internal, 28, 23, 60) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return ZeldaSwordSkillRebornModItems.HOVER_BOOTS.get() == stack.getItem();
+			}
 		}));
 		this.customSlots.put(29, this.addSlot(new SlotItemHandler(internal, 29, 41, 60) {
 		}));
@@ -255,6 +259,10 @@ public class ItemGuiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		this.customSlots.put(32, this.addSlot(new SlotItemHandler(internal, 32, 95, 60) {
 		}));
 		this.customSlots.put(33, this.addSlot(new SlotItemHandler(internal, 33, 131, 42) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return ZeldaSwordSkillRebornModItems.RUPEE_WALLET.get() == stack.getItem();
+			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

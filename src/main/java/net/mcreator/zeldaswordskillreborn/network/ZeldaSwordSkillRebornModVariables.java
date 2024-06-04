@@ -88,6 +88,7 @@ public class ZeldaSwordSkillRebornModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "zelda_sword_skill_reborn_mapvars";
 		public double Rupee = 0.0;
+		public double Minuetxyz = 0.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -97,11 +98,13 @@ public class ZeldaSwordSkillRebornModVariables {
 
 		public void read(CompoundTag nbt) {
 			Rupee = nbt.getDouble("Rupee");
+			Minuetxyz = nbt.getDouble("Minuetxyz");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putDouble("Rupee", Rupee);
+			nbt.putDouble("Minuetxyz", Minuetxyz);
 			return nbt;
 		}
 
