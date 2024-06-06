@@ -265,24 +265,7 @@
         "files": [
           "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/EffectZoraHelmetProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Procedure"
     },
@@ -2200,6 +2183,51 @@
         ]
       },
       "path": "~/Procedure"
+    },
+    {
+      "name": "ZSSBlocks",
+      "type": "tab",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zss_blocks",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "Hiddenblockbomb",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hiddenblockbomb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/hiddenblockbomb.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/hiddenblockbomb.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/hiddenblockbomb.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/HiddenblockbombBlock.java"
+        ]
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "Hiddenblockmasse",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hiddenblockmasse",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/hiddenblockmasse.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/HiddenblockmasseBlock.java",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/hiddenblockmasse.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/hiddenblockmasse.json"
+        ]
+      },
+      "path": "~/misc"
     }
   ],
   "variable_elements": [
@@ -2296,11 +2324,11 @@
       "gui.zelda_sword_skill_reborn.wallet_gui.label_wallet": "Wallet",
       "item.zelda_sword_skill_reborn.hover_leggings": "Hover Leggings",
       "item.zelda_sword_skill_reborn.purple_rupee": "Purple Rupee",
-      "itemGroup.tabzss_music": "Zss Music",
       "item.zelda_sword_skill_reborn.hammer": "Hammer",
+      "itemGroup.tabzss_music": "Zss Music",
       "item.zelda_sword_skill_reborn.bomb": "Bomb",
-      "subtitles.songofstorm": "",
       "item.zelda_sword_skill_reborn.deku_stick": "Deku Stick",
+      "subtitles.songofstorm": "",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee3": "100 Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee4": "500 Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee1": "20 Rupee",
@@ -2312,6 +2340,7 @@
       "item.zelda_sword_skill_reborn.longshot": "Longshot",
       "subtitles.eponasong": "",
       "item.zelda_sword_skill_reborn.red_rupee": "Red Rupee",
+      "block.zelda_sword_skill_reborn.hiddenblockmasse": "Hidden block (bomb)",
       "item.zelda_sword_skill_reborn.item_menu": "Item Menu",
       "itemGroup.tabzss_equipment": "Zss Equipment",
       "gui.zelda_sword_skill_reborn.wallet_gui.label_rupee_wallet": "Rupee Wallet",
@@ -2327,8 +2356,8 @@
       "item.zelda_sword_skill_reborn.silver_rupee": "Silver Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_red_rupee": "Red Rupee",
       "subtitles.minuetofforest": "",
-      "item.zelda_sword_skill_reborn.bowof_hero": "Bow of Hero",
       "item.zelda_sword_skill_reborn.bow_of_heroo_drawing_3": "Bow Of Heroo Drawing 3",
+      "item.zelda_sword_skill_reborn.bowof_hero": "Bow of Hero",
       "item.zelda_sword_skill_reborn.song_of_time": "Song of Time",
       "item.zelda_sword_skill_reborn.goron_tunic_boots": "Goron Boots",
       "item.zelda_sword_skill_reborn.goron_tunic_leggings": "Goron Leggings",
@@ -2367,8 +2396,10 @@
       "item.zelda_sword_skill_reborn.fairy_ocarina": "Fairy Ocarina",
       "item.zelda_sword_skill_reborn.rupee_wallet": "Rupee Wallet",
       "item.zelda_sword_skill_reborn.sariassong": "Saria\u0027 Song",
+      "itemGroup.tabzss_blocks": "ZSS Blocks",
       "block.zelda_sword_skill_reborn.learn_st": "Learn ST",
       "block.zelda_sword_skill_reborn.learn_ss": "Learn SS",
+      "block.zelda_sword_skill_reborn.hiddenblockbomb": "Hidden block (bomb)",
       "item.zelda_sword_skill_reborn.goron_rupee": "Goron Rupee",
       "item.zelda_sword_skill_reborn.fairy_slingshot": "Fairy Slingshot",
       "item.zelda_sword_skill_reborn.zora_tunic_leggings": "Zora Leggings",

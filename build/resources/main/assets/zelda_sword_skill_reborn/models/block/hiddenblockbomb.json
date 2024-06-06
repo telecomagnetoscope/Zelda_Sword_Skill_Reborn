@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zelda_sword_skill_reborn:blocks/royal_block",
+    "up": "zelda_sword_skill_reborn:blocks/royal_block",
+    "north": "zelda_sword_skill_reborn:blocks/royal_block",
+    "east": "zelda_sword_skill_reborn:blocks/royal_block",
+    "south": "zelda_sword_skill_reborn:blocks/royal_block",
+    "west": "zelda_sword_skill_reborn:blocks/royal_block",
+    "particle": "zelda_sword_skill_reborn:blocks/royal_block"
+  },
+  "render_type": "solid"
+}

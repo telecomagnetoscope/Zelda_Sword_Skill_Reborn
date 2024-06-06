@@ -149,6 +149,8 @@ public class ZeldaSwordSkillRebornModItems {
 	public static final RegistryObject<Item> TP_MINUET = block(ZeldaSwordSkillRebornModBlocks.TP_MINUET, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
 	public static final RegistryObject<Item> TP_BOLERO = block(ZeldaSwordSkillRebornModBlocks.TP_BOLERO, ZeldaSwordSkillRebornModTabs.TAB_ZSS_MUSIC);
 	public static final RegistryObject<Item> IRON_BOOTS_BOOTS = REGISTRY.register("iron_boots_boots", () -> new IronBootsItem.Boots());
+	public static final RegistryObject<Item> HIDDENBLOCKBOMB = block(ZeldaSwordSkillRebornModBlocks.HIDDENBLOCKBOMB, ZeldaSwordSkillRebornModTabs.TAB_ZSS_BLOCKS);
+	public static final RegistryObject<Item> HIDDENBLOCKMASSE = block(ZeldaSwordSkillRebornModBlocks.HIDDENBLOCKMASSE, ZeldaSwordSkillRebornModTabs.TAB_ZSS_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

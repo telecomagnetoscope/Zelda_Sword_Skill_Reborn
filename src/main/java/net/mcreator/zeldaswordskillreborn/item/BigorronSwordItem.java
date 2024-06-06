@@ -40,7 +40,7 @@ public class BigorronSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2f, new Item.Properties().tab(ZeldaSwordSkillRebornModTabs.TAB_ZSS_EQUIPMENT).fireResistant());
+		}, 3, -3.2000000000000001f, new Item.Properties().tab(ZeldaSwordSkillRebornModTabs.TAB_ZSS_EQUIPMENT).fireResistant());
 	}
 
 	@Override

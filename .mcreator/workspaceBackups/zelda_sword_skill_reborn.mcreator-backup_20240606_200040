@@ -2140,6 +2140,66 @@
         ]
       },
       "path": "~/Dungeon item"
+    },
+    {
+      "name": "Hoverboots",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoverboots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/HoverbootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Ironbootsprocedure",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbootsprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/IronbootsprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
     }
   ],
   "variable_elements": [
@@ -2236,11 +2296,11 @@
       "gui.zelda_sword_skill_reborn.wallet_gui.label_wallet": "Wallet",
       "item.zelda_sword_skill_reborn.hover_leggings": "Hover Leggings",
       "item.zelda_sword_skill_reborn.purple_rupee": "Purple Rupee",
-      "item.zelda_sword_skill_reborn.hammer": "Hammer",
       "itemGroup.tabzss_music": "Zss Music",
+      "item.zelda_sword_skill_reborn.hammer": "Hammer",
       "item.zelda_sword_skill_reborn.bomb": "Bomb",
-      "item.zelda_sword_skill_reborn.deku_stick": "Deku Stick",
       "subtitles.songofstorm": "",
+      "item.zelda_sword_skill_reborn.deku_stick": "Deku Stick",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee3": "100 Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee4": "500 Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_5_rupee1": "20 Rupee",
@@ -2267,8 +2327,8 @@
       "item.zelda_sword_skill_reborn.silver_rupee": "Silver Rupee",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_red_rupee": "Red Rupee",
       "subtitles.minuetofforest": "",
-      "item.zelda_sword_skill_reborn.bow_of_heroo_drawing_3": "Bow Of Heroo Drawing 3",
       "item.zelda_sword_skill_reborn.bowof_hero": "Bow of Hero",
+      "item.zelda_sword_skill_reborn.bow_of_heroo_drawing_3": "Bow Of Heroo Drawing 3",
       "item.zelda_sword_skill_reborn.song_of_time": "Song of Time",
       "item.zelda_sword_skill_reborn.goron_tunic_boots": "Goron Boots",
       "item.zelda_sword_skill_reborn.goron_tunic_leggings": "Goron Leggings",

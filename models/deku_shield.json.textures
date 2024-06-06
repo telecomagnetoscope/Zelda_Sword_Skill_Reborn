@@ -2,9 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "shield_deku",
-        "1": "shield_deku_back",
-        "missing": "shield_deku"
+        "2": "shield_deku_back",
+        "3": "shield_deku"
       },
       "name": "default"
     }

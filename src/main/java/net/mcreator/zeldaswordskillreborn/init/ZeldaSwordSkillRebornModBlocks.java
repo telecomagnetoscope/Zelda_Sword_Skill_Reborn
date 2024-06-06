@@ -19,6 +19,8 @@ import net.mcreator.zeldaswordskillreborn.block.LearnStBlock;
 import net.mcreator.zeldaswordskillreborn.block.LearnSaSBlock;
 import net.mcreator.zeldaswordskillreborn.block.LearnSSBlock;
 import net.mcreator.zeldaswordskillreborn.block.LearnEponasongBlock;
+import net.mcreator.zeldaswordskillreborn.block.HiddenblockmasseBlock;
+import net.mcreator.zeldaswordskillreborn.block.HiddenblockbombBlock;
 import net.mcreator.zeldaswordskillreborn.block.GateOfTimeBlock;
 import net.mcreator.zeldaswordskillreborn.block.BlockofTimeBlock;
 import net.mcreator.zeldaswordskillreborn.ZeldaSwordSkillRebornMod;
@@ -36,4 +38,6 @@ public class ZeldaSwordSkillRebornModBlocks {
 	public static final RegistryObject<Block> GATE_OF_TIME = REGISTRY.register("gate_of_time", () -> new GateOfTimeBlock());
 	public static final RegistryObject<Block> TP_MINUET = REGISTRY.register("tp_minuet", () -> new TpMinuetBlock());
 	public static final RegistryObject<Block> TP_BOLERO = REGISTRY.register("tp_bolero", () -> new TPBoleroBlock());
+	public static final RegistryObject<Block> HIDDENBLOCKBOMB = REGISTRY.register("hiddenblockbomb", () -> new HiddenblockbombBlock());
+	public static final RegistryObject<Block> HIDDENBLOCKMASSE = REGISTRY.register("hiddenblockmasse", () -> new HiddenblockmasseBlock());
 }

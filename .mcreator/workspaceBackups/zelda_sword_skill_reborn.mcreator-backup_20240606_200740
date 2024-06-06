@@ -265,24 +265,7 @@
         "files": [
           "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/EffectZoraHelmetProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Procedure"
     },
@@ -2156,10 +2139,79 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
       "path": "~/Procedure"
+    },
+    {
+      "name": "Ironbootsprocedure",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbootsprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/IronbootsprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "ZSSBlocks",
+      "type": "tab",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zss_blocks",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/misc"
+    },
+    {
+      "name": "Hiddenblockbomb",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hiddenblockbomb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/block/hiddenblockbomb.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/blockstates/hiddenblockbomb.json",
+          "src/main/resources/assets/zelda_sword_skill_reborn/models/item/hiddenblockbomb.json",
+          "src/main/java/net/mcreator/zeldaswordskillreborn/block/HiddenblockbombBlock.java"
+        ]
+      },
+      "path": "~/misc"
     }
   ],
   "variable_elements": [
@@ -2327,8 +2379,10 @@
       "item.zelda_sword_skill_reborn.fairy_ocarina": "Fairy Ocarina",
       "item.zelda_sword_skill_reborn.rupee_wallet": "Rupee Wallet",
       "item.zelda_sword_skill_reborn.sariassong": "Saria\u0027 Song",
+      "itemGroup.tabzss_blocks": "ZSS Blocks",
       "block.zelda_sword_skill_reborn.learn_st": "Learn ST",
       "block.zelda_sword_skill_reborn.learn_ss": "Learn SS",
+      "block.zelda_sword_skill_reborn.hiddenblockbomb": "Hidden block (bomb)",
       "item.zelda_sword_skill_reborn.goron_rupee": "Goron Rupee",
       "item.zelda_sword_skill_reborn.fairy_slingshot": "Fairy Slingshot",
       "item.zelda_sword_skill_reborn.zora_tunic_leggings": "Zora Leggings",

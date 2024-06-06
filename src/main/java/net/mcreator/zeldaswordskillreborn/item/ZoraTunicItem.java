@@ -76,7 +76,9 @@ public abstract class ZoraTunicItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			EffectZoraHelmetProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+			EffectZoraHelmetProcedure.execute(
+
+			);
 		}
 	}
 

@@ -2140,6 +2140,66 @@
         ]
       },
       "path": "~/Dungeon item"
+    },
+    {
+      "name": "Hoverboots",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoverboots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/HoverbootsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Ironbootsprocedure",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironbootsprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/zeldaswordskillreborn/procedures/IronbootsprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
     }
   ],
   "variable_elements": [
@@ -2326,6 +2386,7 @@
       "item.zelda_sword_skill_reborn.requiemof_spirits": "Requiem of Spirit",
       "gui.zelda_sword_skill_reborn.wallet_gui.button_yellow_rupee": "Yellow Rupee",
       "item.zelda_sword_skill_reborn.sunssong": "Sun\u0027s Song",
+      "gui.zelda_sword_skill_reborn.item_gui.label_item_menu": "Item Menu",
       "item.zelda_sword_skill_reborn.serenadeof_water": "Serenade of Water",
       "item.zelda_sword_skill_reborn.iron_boots_helmet": "Iron Boots Helmet",
       "item.zelda_sword_skill_reborn.yellow_rupee": "Gold Rupee",
